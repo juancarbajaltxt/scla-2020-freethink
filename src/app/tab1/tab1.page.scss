@@ -17,10 +17,13 @@ ion-content{
 
 #toolbar {
     --background: #444488;
+    margin-top: -40px;
+
+    height: 70px;
 
 }
 
-toolbar-container {
+.toolbar-container {
 
     --background: #444488;
 }
@@ -28,6 +31,17 @@ toolbar-container {
 ion-title {
     --background: #444488;
 }
+
+#title {
+    --background: #444488;
+    color: white ;
+}
+
+ion-title {
+    color: white;
+}
+
+
 
 
 
