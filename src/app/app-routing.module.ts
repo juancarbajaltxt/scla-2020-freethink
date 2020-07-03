@@ -13,6 +13,22 @@ const routes: Routes = [
   {
     path: 'info',
     loadChildren: () => import('./info/info.module').then( m => m.InfoPageModule)
+  },
+  {
+    path: 'program-description',
+    loadChildren: () => import('./program-description/program-description.module').then( m => m.ProgramDescriptionPageModule)
+  },
+  {
+    path: 'program-length',
+    loadChildren: () => import('./program-length/program-length.module').then( m => m.ProgramLengthPageModule)
+  },
+  {
+    path: 'user-name',
+    loadChildren: () => import('./user-name/user-name.module').then( m => m.UserNamePageModule)
+  },
+  {
+    path: 'complete',
+    loadChildren: () => import('./complete/complete.module').then( m => m.CompletePageModule)
   }
 ];
 @NgModule({
