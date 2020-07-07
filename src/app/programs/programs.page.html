@@ -13,7 +13,7 @@
 </ion-header>
 
 <ion-content>
-  <ion-button id = "button1"href = "/info"><img src="https://avatars1.githubusercontent.com/u/15455?s=280&v=4">  </ion-button>
+  <ion-button id = "button1"[routerLink]="['/info']"><img src="https://avatars1.githubusercontent.com/u/15455?s=280&v=4">  </ion-button>
   <ion-button href = "/info"></ion-button>
   <ion-button href = "/info"></ion-button>
   <ion-button href = "/info"></ion-button>
@@ -23,3 +23,21 @@
   <ion-button href = "/info"></ion-button>
   
 </ion-content>
+
+<ion-tabs>
+
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button href ="/tabs/tab1">
+      <!-- <ion-icon name="triangle"></ion-icon> -->
+      <ion-label >Categories</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button href="/tabs/tab2">
+      <!-- <ion-icon name="ellipse"></ion-icon> -->
+      <ion-label>Uploads</ion-label>
+    </ion-tab-button>
+
+   
+  </ion-tab-bar>
+
+</ion-tabs>
