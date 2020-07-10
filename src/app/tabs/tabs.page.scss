@@ -1,8 +1,13 @@
 ion-tab-bar {
    
     color:#ffffff;
+    --color: white !important;
+    --background: #444488 !important;
+    --color-selected: white !important;
 }
 
 ion-label{
     font-size: large;
 }
+
+
